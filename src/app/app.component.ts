@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'flip-card';
+  public title = 'Fernando Filho';
+  public subtitle = 'Front End Developer';
+  public avatarUrl = 'assets/images/avatar-img.jpg';
+  public coverUrl = 'assets/images/tropical-background.png';
 }

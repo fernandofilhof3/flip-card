@@ -1,0 +1,25 @@
+<div class="card-container">
+	<div class="left"></div>
+	<div class="right"></div>
+	<div class="flip-card">
+		<div class="card front">
+			<div class="card-cover"
+				[style.backgroundImage]="'url(' + coverUrl +')'">
+			</div>
+			<div class="card-body">
+				<div class="card-cell avatar">
+					<div class="card-avatar"
+						[style.backgroundImage]="'url(' + avatarUrl + ')'">
+					</div>
+				</div>
+				<div class="card-cell card-text">
+					<span class="title">{{title}}</span>
+					<p class="sub-title">{{subtitle}}</p>
+				</div>
+			</div>
+		</div>
+		<div class="card back">
+			<ng-content></ng-content>
+		</div>
+	</div>
+</div>
