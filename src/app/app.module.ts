@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { FlipCardModule } from 'src/flip-card/flip-card.module';
+import { FlipCardModule } from 'src/app/flip-card/flip-card.module';
 
 @NgModule({
   declarations: [
